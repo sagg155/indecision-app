@@ -7,7 +7,7 @@
   "scripts": {
     "serve": "live-server public",
     "build": "webpack",
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack-dev-server --open"
   },
   "dependencies": {
     "babel-cli": "6.24.1",
@@ -21,6 +21,7 @@
     "normalize.css": "7.0.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-modal": "2.2.2",
     "sass-loader": "6.0.6",
     "style-loader": "0.18.2",
     "webpack": "3.1.0",

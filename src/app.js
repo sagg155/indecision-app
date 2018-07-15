@@ -18,6 +18,23 @@ class NewSyntax{
 
 const newSyntax = new NewSyntax();
 console.log(newSyntax);
+
+const Layout = (props)=>{
+  return (
+    <div>
+      <p>header</p>
+      {props.content}
+      <p>footer</p>
+    </div>
+  );
+};
+
+const template = (
+  <div>
+    <h1>Page Title</h1>
+    <p>This is my page</p>
+  </div>
+)
 //import AddOption from './components/AddOption'; //.js extension can be excluded webpack can automatically look 
                                                 // the js file  
 
@@ -152,6 +169,6 @@ console.log(newSyntax);
   //   );
   // };
   
-  ReactDOM.render(<IndecisionApp />, document.getElementById('app'));
+  ReactDOM.render(<IndecisionApp/>, document.getElementById('app'));
   
   
